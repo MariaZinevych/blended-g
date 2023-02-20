@@ -1,0 +1,44 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  list-style: none;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1, 22;
+  color: #f3f3f3;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1, 25;
+  color: #f3f3f3;
+}
+
+.btn {
+  width: 202px;
+  height: 43px;
+  cursor: pointer;
+}
+
+.text-video {
+  font-size: 32px;
+  line-height: 1, 22;
+  color: #f3f3f3;
+}
